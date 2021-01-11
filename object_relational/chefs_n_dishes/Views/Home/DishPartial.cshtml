@@ -1,0 +1,43 @@
+@model Dish
+<div class="d-flex justify-content-between">
+    <div class="form-group">
+        <div class="inner-form-group">
+            <p>Name of Dish <span class="color-red"asp-validation-for="Name"></span></p>
+            <input type="text" asp-for="Name">
+        </div>
+        <div class="inner-form-group">
+            <p># of calories <span class="color-red"asp-validation-for="Calories"></span></p>
+            <input type="number" asp-for="Calories">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <p>Tastiness</p>
+        <span asp-validation-for="Tastiness"></span>
+        <select asp-for="Tastiness">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+
+    <div class=" form-group">
+        <p>Chef</p>
+        <select asp-for="ChefObjId">
+            @foreach (Chef chef in ViewBag.AllChefs)
+            {
+                <option value="@chef.ChefId">@chef.ChefFName @chef.ChefLName</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <p>Description</p>
+        <span class="color-red" asp-validation-for="Description"></span>
+        <textarea asp-for="Description" class="textarea" cols="30" rows="10"></textarea>
+    </div>
+</div>
+
+<button type="submit" class="btn btn-primary">Submit</button>

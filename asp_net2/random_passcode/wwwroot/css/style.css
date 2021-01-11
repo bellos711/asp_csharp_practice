@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: darkcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.outercontainer{
+    width: 97%;
+}
+
+.innercontainer{
+    width: 33%;
+    margin: auto;
+    background-color: darkslategray;
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+a{
+    color: white;
+}

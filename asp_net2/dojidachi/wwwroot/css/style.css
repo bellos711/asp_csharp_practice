@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: slategray;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outercontainer{
+    width: 100%;
+}
+
+.innercontainer{
+    width: 33%;
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.innerinnercontainer{
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    /* text-align: center; */
+    border: 2px solid white;
+}

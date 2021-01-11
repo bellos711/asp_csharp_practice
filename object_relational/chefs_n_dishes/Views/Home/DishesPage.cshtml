@@ -1,0 +1,43 @@
+@model List<Dish>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+    <div class="container outercontainer">
+        <div class="innercontainer container">
+            <h3 class="text-center"><a href="/">Chefs</a> | Dishes</h3>
+            <h4 class="text-right"><a href="/dishes/new">Add a Dish</a></h4>
+            
+            <div class="container">
+                <h3>All Dishes</h3>
+                <table class="table table-striped">
+                    <tr>
+                        <th>Dish</th>
+                        <th>Chef</th>
+                        <th>Tastiness</th>
+                        <th>Calories</th>
+                    </tr>
+                    @foreach(Dish dish in @Model)
+                    {
+                        <tr>
+                            <td>@dish.Name</td>
+                            <td>@dish.ChefObj.ChefFName @dish.ChefObj.ChefLName</td>
+                            <td>@dish.Tastiness</td>
+                            <td>@dish.Calories</td>
+                        </tr>
+                    }
+                </table>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

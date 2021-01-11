@@ -1,0 +1,15 @@
+label{
+    display: inline-block;
+    width: 150px;
+}
+
+span{
+    color: red;
+}
+
+.dashboard-data
+{
+    height: 400px;
+    max-height: 400px;
+    overflow: auto;
+}

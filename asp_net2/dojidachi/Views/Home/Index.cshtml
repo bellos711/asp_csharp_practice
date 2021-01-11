@@ -1,0 +1,32 @@
+@using dojidachi.Models
+@model Dojidachi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="outercontainer">
+        <div class="innercontainer">
+            <h4>my msg @Model.MyMsg</h4>
+            <span>FULLNESS: @Model.Fullness</span> |
+            <span>HAPPINESS: @Model.Happiness</span> |
+            <span>MEALS: @Model.Meals</span> |
+            <span>ENERGY: @Model.Energy</span>
+            <div class="innerinnercontainer">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmustsharenews.com%2Fwp-content%2Fuploads%2F2019%2F03%2FEggpup-2.jpg&f=1&nofb=1" width="200px" alt="egg">
+            </div>
+
+            <div class="button-group">
+                <a href="/feed"><button>Feed</button></a>
+                <a href="/play"><button>Play</button></a>
+                <a href="/work"><button>Work</button></a>
+                <a href="/sleep"><button>Sleep</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

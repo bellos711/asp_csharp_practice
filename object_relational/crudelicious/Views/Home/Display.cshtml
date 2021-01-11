@@ -1,0 +1,33 @@
+@using crudelicious.Models
+@model Dish
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <a href="/">Home</a>
+        <div class="topheading">
+            <h1 class="text-center">@Model.Name</h1>
+            <h3 class="text-center">@Model.Chef</h3>
+            
+        </div>
+        <div class="container bottom-heading">
+            <h5>@Model.Description</h5>
+            <h3>Calories: <span class="font-weight-light">@Model.Calories</span></h3> 
+            <h3>Tastiness: <span class="font-weight-light">@Model.Tastiness</span></h3> 
+        </div>
+
+        <div class="bottomheading d-flex justify-content-between">
+            <a asp-action="DeleteDish" asp-controller="Home" asp-route-DishId="@Model.DishId" class="btn btn-danger">Delete</a>
+            <a asp-action="EditDish" asp-controller="Home" asp-route-DishId="@Model.DishId" class="btn btn-primary">Edit</a>
+        </div>
+    </div>
+</body>
+</html>

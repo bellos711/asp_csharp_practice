@@ -1,0 +1,58 @@
+@using crudelicious.Models
+@model Dish
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Add a new Dish</h1>
+        <a href="/">Home</a>
+        <form asp-action="CreateDish" asp-controller="Home" method="post" class="form">
+            <div class="d-flex justify-content-between">
+                <div class="col-sm-4 form-group">
+                    <div class="inner-form-group">
+                        <p>Chef's Name <span class="color-red"asp-validation-for="Chef"></span></p>
+                        <input type="text" asp-for="Chef"> 
+                    </div>
+                    <div class="inner-form-group">
+                        <p>Name of Dish <span class="color-red"asp-validation-for="Name"></span></p>
+                        <input type="text" asp-for="Name">
+                    </div>
+                    <div class="inner-form-group">
+                        <p># of calories <span class="color-red"asp-validation-for="Calories"></span></p>
+                        <input type="number" asp-for="Calories">
+                    </div>
+                </div>
+
+                <div class="col-sm-4 form-group">
+                    <p>Tastiness</p>
+                    <span asp-validation-for="Tastiness"></span>
+                    <select asp-for="Tastiness">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
+                <div class="col-sm-4 form-group">
+                    <p>Description</p>
+                    <span class="color-red" asp-validation-for="Description"></span>
+                    <textarea asp-for="Description" class="textarea" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+</body>
+</html>

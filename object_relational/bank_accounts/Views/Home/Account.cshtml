@@ -1,0 +1,57 @@
+@using bank_accounts.Models
+@model User
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container outercontainer">
+        <div class="container innercontainer text-center">
+            
+            <h3>Account Dashboard</h3>
+            <a href="/logout"><h3>Logout</h3></a>
+            <div class="row">
+                <h2 class="col-sm-6 text-left w-50">Welcome @Model.FirstName</h2>
+                <h2 class="col-sm6 text-right w-50">Current Balance: @Model.Accounts[0].AccountBalance</h2>
+            </div>
+            <div class="row ">
+                <form action="/depositwithdraw"  method="POST">
+                    <div class="col-sm-12 text-center ">
+                        <label class="form-group">Deposit/Withdraw</label>
+                        <input name="depositwithdrawFromForm" type="number" step=".01" class="form-control">
+                        <button type="submit" class="btn btn-primary col-sm-6 text-left mt-3">Submit</button>
+                        @* @Model.Accounts[0].AccountBalance *@
+                    </div>
+                    
+                </form>
+            </div>
+
+            <div class="container">
+                <h3>Transaction History</h3>
+                
+                <table class="table table-striped">
+                    <tr>
+                        <th>Amount</th>
+                        <th>Date</th>
+                    </tr>
+                    @foreach(Transaction singleTransaction in @Model.Transactions)
+                    {
+                    <tr>
+                        <td>@singleTransaction.TransactionAmount</td>
+                        <td>@singleTransaction.CreatedAt</td>
+                    </tr>
+                    } 
+                    
+                </table>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

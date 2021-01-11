@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="outercontainer">
+        <div class="form-container">
+            <form action="/result" method="post">
+                <h3>Success!</h3>
+            <div class="form-group">
+                <label for="name">Name: </label>
+                <input type="text" name="name">
+            </div>
+
+            <div class="form-group">
+                <label for="location">Location: </label>
+                <select name="location" >
+                    <option value="Seattle">Seattle</option>
+                    <option value="Denver">Denver</option>
+                    <option value="Maryland">Maryland</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="language">Favorite Language: </label>
+                <select name="language" >
+                    <option value="C#">C#</option>
+                    <option value="Python">Python</option>
+                    <option value="JavaScript">JavaScript</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label id="block-label" for="comment">Comment (optional): </label>
+                <textarea name="comment" id="" cols="50" rows="4"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

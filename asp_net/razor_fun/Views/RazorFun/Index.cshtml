@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>HALO</h1>
+    
+    @{
+        
+        
+        @* string[] foodArr = new string[4]{
+            "Apple Pie",
+            "Burritos",
+            "Clams Casino",
+            "Donuts"
+        }; *@
+
+        var foodList = new List<string>();
+        foodList.Add("Pineapple Pizza");
+        foodList.Add("Taco");
+        foodList.Add("Clam Chowder");
+        foodList.Add("PopTart");
+        
+    }
+
+    @for(int i = 0; i < foodList.Count ; i++)
+    {
+        if(foodList[i][0]=='C')
+        {
+            <p style="color:red;">@foodList[i]</p>
+        }
+        else
+        {
+            <p>@foodList[i]</p>
+        }
+    }
+    
+
+</body>
+</html>

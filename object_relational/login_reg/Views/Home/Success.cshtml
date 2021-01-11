@@ -1,0 +1,23 @@
+@using login_reg.Models
+@model User
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="outercontainer container">
+        <div class="container innercontainer">
+            <h3 class="text-center">SUCCESS PAGE!</h3>
+            <h2 class="text-center">Your uuid is @ViewBag.YourUuid</h2>
+            <h2 class="text-center">@Model.FirstName is YOU!</h2>
+            <a asp-action="Logout" asp-controller="Home"><h3 class="text-center">Logout</h3></a>
+        </div>
+    </div>
+</body>
+</html>

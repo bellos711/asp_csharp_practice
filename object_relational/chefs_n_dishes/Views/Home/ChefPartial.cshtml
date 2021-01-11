@@ -1,0 +1,20 @@
+@model Chef
+<div class="d-flex justify-content-between row">
+    <div class="col-sm-4 form-group ">
+        <div class="inner-form-group">
+            <p>Chef's First Name <span class="color-red"asp-validation-for="ChefFName"></span></p>
+            <input type="text" asp-for="ChefFName"> 
+        </div>
+        <div class="inner-form-group">
+            <p>Chef's Last Name <span class="color-red"asp-validation-for="ChefLName"></span></p>
+            <input type="text" asp-for="ChefLName">
+        </div>
+        <div class="inner-form-group">
+            <p>Chef's Birthday <span class="color-red"asp-validation-for="ChefAge"></span></p>
+            <input type="datetime-local" asp-for="ChefAge">
+        </div>
+
+        <button type="submit" class="btn btn-primary d-block mt-2 w-50">Submit</button>
+    </div>
+</div>
+

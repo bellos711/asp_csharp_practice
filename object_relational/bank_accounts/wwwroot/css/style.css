@@ -1,0 +1,12 @@
+body{
+    background-color: thistle;
+}
+
+span{
+    color: red;
+}
+
+.form-label{
+    width: 150px;
+    display: inline-block;
+}

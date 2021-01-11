@@ -1,0 +1,13 @@
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\puzzles\bin\Debug\netcoreapp3.1\puzzles.exe
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\puzzles\bin\Debug\netcoreapp3.1\puzzles.deps.json
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\puzzles\bin\Debug\netcoreapp3.1\puzzles.runtimeconfig.json
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\puzzles\bin\Debug\netcoreapp3.1\puzzles.runtimeconfig.dev.json
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\puzzles\bin\Debug\netcoreapp3.1\puzzles.dll
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\puzzles\bin\Debug\netcoreapp3.1\puzzles.pdb
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\puzzles\obj\Debug\netcoreapp3.1\puzzles.csprojAssemblyReference.cache
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\puzzles\obj\Debug\netcoreapp3.1\puzzles.AssemblyInfoInputs.cache
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\puzzles\obj\Debug\netcoreapp3.1\puzzles.AssemblyInfo.cs
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\puzzles\obj\Debug\netcoreapp3.1\puzzles.csproj.CoreCompileInputs.cache
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\puzzles\obj\Debug\netcoreapp3.1\puzzles.dll
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\puzzles\obj\Debug\netcoreapp3.1\puzzles.pdb
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\puzzles\obj\Debug\netcoreapp3.1\puzzles.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\fundamentals_i\bin\Debug\netcoreapp3.1\fundamentals_i.exe
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\fundamentals_i\bin\Debug\netcoreapp3.1\fundamentals_i.deps.json
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\fundamentals_i\bin\Debug\netcoreapp3.1\fundamentals_i.runtimeconfig.json
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\fundamentals_i\bin\Debug\netcoreapp3.1\fundamentals_i.runtimeconfig.dev.json
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\fundamentals_i\bin\Debug\netcoreapp3.1\fundamentals_i.dll
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\fundamentals_i\bin\Debug\netcoreapp3.1\fundamentals_i.pdb
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\fundamentals_i\obj\Debug\netcoreapp3.1\fundamentals_i.csprojAssemblyReference.cache
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\fundamentals_i\obj\Debug\netcoreapp3.1\fundamentals_i.AssemblyInfoInputs.cache
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\fundamentals_i\obj\Debug\netcoreapp3.1\fundamentals_i.AssemblyInfo.cs
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\fundamentals_i\obj\Debug\netcoreapp3.1\fundamentals_i.csproj.CoreCompileInputs.cache
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\fundamentals_i\obj\Debug\netcoreapp3.1\fundamentals_i.dll
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\fundamentals_i\obj\Debug\netcoreapp3.1\fundamentals_i.pdb
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\fundamentals_i\obj\Debug\netcoreapp3.1\fundamentals_i.genruntimeconfig.cache

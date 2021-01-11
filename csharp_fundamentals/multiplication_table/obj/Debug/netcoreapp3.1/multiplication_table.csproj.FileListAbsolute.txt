@@ -1,0 +1,13 @@
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\multiplication_table\bin\Debug\netcoreapp3.1\multiplication_table.exe
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\multiplication_table\bin\Debug\netcoreapp3.1\multiplication_table.deps.json
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\multiplication_table\bin\Debug\netcoreapp3.1\multiplication_table.runtimeconfig.json
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\multiplication_table\bin\Debug\netcoreapp3.1\multiplication_table.runtimeconfig.dev.json
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\multiplication_table\bin\Debug\netcoreapp3.1\multiplication_table.dll
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\multiplication_table\bin\Debug\netcoreapp3.1\multiplication_table.pdb
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\multiplication_table\obj\Debug\netcoreapp3.1\multiplication_table.csprojAssemblyReference.cache
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\multiplication_table\obj\Debug\netcoreapp3.1\multiplication_table.AssemblyInfoInputs.cache
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\multiplication_table\obj\Debug\netcoreapp3.1\multiplication_table.AssemblyInfo.cs
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\multiplication_table\obj\Debug\netcoreapp3.1\multiplication_table.csproj.CoreCompileInputs.cache
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\multiplication_table\obj\Debug\netcoreapp3.1\multiplication_table.dll
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\multiplication_table\obj\Debug\netcoreapp3.1\multiplication_table.pdb
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\multiplication_table\obj\Debug\netcoreapp3.1\multiplication_table.genruntimeconfig.cache

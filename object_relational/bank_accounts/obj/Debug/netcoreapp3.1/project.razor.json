@@ -1,0 +1,47 @@
+{
+  "FilePath": "f:\\BOOTCAMP\\csharp_stack\\object_relational\\bank_accounts\\bank_accounts.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "3.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": null,
+  "RootNamespace": "bank_accounts",
+  "Documents": [
+    {
+      "FilePath": "f:\\BOOTCAMP\\csharp_stack\\object_relational\\bank_accounts\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\BOOTCAMP\\csharp_stack\\object_relational\\bank_accounts\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\BOOTCAMP\\csharp_stack\\object_relational\\bank_accounts\\Views\\Home\\LoginPage.cshtml",
+      "TargetPath": "Views\\Home\\LoginPage.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\BOOTCAMP\\csharp_stack\\object_relational\\bank_accounts\\Views\\Home\\Account.cshtml",
+      "TargetPath": "Views\\Home\\Account.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\BOOTCAMP\\csharp_stack\\object_relational\\bank_accounts\\Views\\Home\\LoginUserPartial.cshtml",
+      "TargetPath": "Views\\Home\\LoginUserPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\BOOTCAMP\\csharp_stack\\object_relational\\bank_accounts\\Views\\Home\\UserPartial.cshtml",
+      "TargetPath": "Views\\Home\\UserPartial.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}

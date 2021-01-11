@@ -1,0 +1,32 @@
+{
+  "FilePath": "f:\\BOOTCAMP\\csharp_stack\\asp_net2\\doj_survey_validation\\doj_survey_validation.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "3.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": null,
+  "RootNamespace": "doj_survey_validation",
+  "Documents": [
+    {
+      "FilePath": "f:\\BOOTCAMP\\csharp_stack\\asp_net2\\doj_survey_validation\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\BOOTCAMP\\csharp_stack\\asp_net2\\doj_survey_validation\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\BOOTCAMP\\csharp_stack\\asp_net2\\doj_survey_validation\\Views\\Home\\RegisterStudent.cshtml",
+      "TargetPath": "Views\\Home\\RegisterStudent.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}

@@ -1,0 +1,13 @@
+F:\BOOTCAMP\csharp_stack\csharp_oop\human\bin\Debug\netcoreapp3.1\human.exe
+F:\BOOTCAMP\csharp_stack\csharp_oop\human\bin\Debug\netcoreapp3.1\human.deps.json
+F:\BOOTCAMP\csharp_stack\csharp_oop\human\bin\Debug\netcoreapp3.1\human.runtimeconfig.json
+F:\BOOTCAMP\csharp_stack\csharp_oop\human\bin\Debug\netcoreapp3.1\human.runtimeconfig.dev.json
+F:\BOOTCAMP\csharp_stack\csharp_oop\human\bin\Debug\netcoreapp3.1\human.dll
+F:\BOOTCAMP\csharp_stack\csharp_oop\human\bin\Debug\netcoreapp3.1\human.pdb
+F:\BOOTCAMP\csharp_stack\csharp_oop\human\obj\Debug\netcoreapp3.1\human.csprojAssemblyReference.cache
+F:\BOOTCAMP\csharp_stack\csharp_oop\human\obj\Debug\netcoreapp3.1\human.AssemblyInfoInputs.cache
+F:\BOOTCAMP\csharp_stack\csharp_oop\human\obj\Debug\netcoreapp3.1\human.AssemblyInfo.cs
+F:\BOOTCAMP\csharp_stack\csharp_oop\human\obj\Debug\netcoreapp3.1\human.csproj.CoreCompileInputs.cache
+F:\BOOTCAMP\csharp_stack\csharp_oop\human\obj\Debug\netcoreapp3.1\human.dll
+F:\BOOTCAMP\csharp_stack\csharp_oop\human\obj\Debug\netcoreapp3.1\human.pdb
+F:\BOOTCAMP\csharp_stack\csharp_oop\human\obj\Debug\netcoreapp3.1\human.genruntimeconfig.cache

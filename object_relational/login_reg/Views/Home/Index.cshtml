@@ -1,0 +1,36 @@
+@using login_reg.Models
+@model WrapperModelLogRes
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container outercontainer">
+        <div class="container innercontainer">
+            
+                <div class="d-flex login-reg-container justify-conetnt-around">
+                    <div class="register-container">
+                        <h2 class="text-center">Register</h2>
+                        <form asp-action="Register" asp-controller="Home" method="POST" class="form register-form">
+                            <partial name="UserPartial" model="@Model.UserFromForm"/> 
+                        </form>
+                    </div>
+
+                    <div class="login-container">
+                        <h3 class="text-center">Login</h3>
+                        <form asp-action="Login" asp-controller="Home" method="post" class="form login-form">
+                            <partial name="LoginUserPartial" model="@Model.LoginUserFromForm"/>
+                        </form> 
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: cornflowerblue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+.content{
+    width: 96%;
+    display: flex;
+    padding: 25px;
+    
+}
+
+.profile-card{
+    width: 50%;
+    text-align: center;
+}
+
+.text-info{
+    width: 50%;
+    text-align: center;
+}
+
+.heading-container{
+    display: block;
+    text-align: center;
+}
+
+
+/*----------------------projects---------------------*/
+.projects-card{
+    display: block;
+    height: 300px;
+    overflow: auto;
+}
+
+.project-item{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.project-item img{
+    margin-right: 15px;
+}
+
+/*--------------------contacts--------------------------*/
+.form-container{
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+}
+
+.content section{
+    display: block;
+    margin-right: 15px;
+}
+
+.content label{
+    width: 100px;
+}

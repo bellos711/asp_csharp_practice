@@ -1,0 +1,13 @@
+F:\bootcamp\csharp_stack\csharp_fundamentals\first_app_test\bin\Debug\netcoreapp3.1\first_app_test.exe
+F:\bootcamp\csharp_stack\csharp_fundamentals\first_app_test\bin\Debug\netcoreapp3.1\first_app_test.deps.json
+F:\bootcamp\csharp_stack\csharp_fundamentals\first_app_test\bin\Debug\netcoreapp3.1\first_app_test.runtimeconfig.json
+F:\bootcamp\csharp_stack\csharp_fundamentals\first_app_test\bin\Debug\netcoreapp3.1\first_app_test.runtimeconfig.dev.json
+F:\bootcamp\csharp_stack\csharp_fundamentals\first_app_test\bin\Debug\netcoreapp3.1\first_app_test.dll
+F:\bootcamp\csharp_stack\csharp_fundamentals\first_app_test\bin\Debug\netcoreapp3.1\first_app_test.pdb
+F:\bootcamp\csharp_stack\csharp_fundamentals\first_app_test\obj\Debug\netcoreapp3.1\first_app_test.csprojAssemblyReference.cache
+F:\bootcamp\csharp_stack\csharp_fundamentals\first_app_test\obj\Debug\netcoreapp3.1\first_app_test.AssemblyInfoInputs.cache
+F:\bootcamp\csharp_stack\csharp_fundamentals\first_app_test\obj\Debug\netcoreapp3.1\first_app_test.AssemblyInfo.cs
+F:\bootcamp\csharp_stack\csharp_fundamentals\first_app_test\obj\Debug\netcoreapp3.1\first_app_test.csproj.CoreCompileInputs.cache
+F:\bootcamp\csharp_stack\csharp_fundamentals\first_app_test\obj\Debug\netcoreapp3.1\first_app_test.dll
+F:\bootcamp\csharp_stack\csharp_fundamentals\first_app_test\obj\Debug\netcoreapp3.1\first_app_test.pdb
+F:\bootcamp\csharp_stack\csharp_fundamentals\first_app_test\obj\Debug\netcoreapp3.1\first_app_test.genruntimeconfig.cache

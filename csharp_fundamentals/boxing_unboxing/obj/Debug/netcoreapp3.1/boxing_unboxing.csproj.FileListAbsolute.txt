@@ -1,0 +1,13 @@
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\boxing_unboxing\bin\Debug\netcoreapp3.1\boxing_unboxing.exe
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\boxing_unboxing\bin\Debug\netcoreapp3.1\boxing_unboxing.deps.json
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\boxing_unboxing\bin\Debug\netcoreapp3.1\boxing_unboxing.runtimeconfig.json
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\boxing_unboxing\bin\Debug\netcoreapp3.1\boxing_unboxing.runtimeconfig.dev.json
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\boxing_unboxing\bin\Debug\netcoreapp3.1\boxing_unboxing.dll
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\boxing_unboxing\bin\Debug\netcoreapp3.1\boxing_unboxing.pdb
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\boxing_unboxing\obj\Debug\netcoreapp3.1\boxing_unboxing.csprojAssemblyReference.cache
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\boxing_unboxing\obj\Debug\netcoreapp3.1\boxing_unboxing.AssemblyInfoInputs.cache
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\boxing_unboxing\obj\Debug\netcoreapp3.1\boxing_unboxing.AssemblyInfo.cs
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\boxing_unboxing\obj\Debug\netcoreapp3.1\boxing_unboxing.csproj.CoreCompileInputs.cache
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\boxing_unboxing\obj\Debug\netcoreapp3.1\boxing_unboxing.dll
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\boxing_unboxing\obj\Debug\netcoreapp3.1\boxing_unboxing.pdb
+F:\BOOTCAMP\csharp_stack\csharp_fundamentals\boxing_unboxing\obj\Debug\netcoreapp3.1\boxing_unboxing.genruntimeconfig.cache

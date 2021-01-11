@@ -1,0 +1,57 @@
+@using chefs_n_dishes.Models
+@model List<Chef>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+    <div class="container outercontainer">
+        <div class="innercontainer container">
+            <h3 class="text-center">Chefs | <a href="/dishes">Dishes</a></h3>
+            <h4 class="text-right"><a href="/new">Add a chef</a></h4>
+            <div class="container">
+                <h3>All Chefs</h3>
+                <table class="table table-striped">
+                    <tr>
+                        <th>Chef</th>
+                        <th>Age</th>
+                        <th>Dishes</th>
+                    </tr>
+                    @foreach(Chef chef in @Model)
+                    {
+                        <tr>
+                            <td>@chef.ChefFName @chef.ChefLName</td>
+                            <td>@{
+                                var today = DateTime.Today;
+                                var chefbday = chef.ChefAge;
+                                var age = today.Year - chefbday.Year;
+                                if (chefbday.Date > today.AddYears(-age)) age--;
+                                @age }
+                            </td>
+                            <td>
+                                <ul>
+                                    @foreach (Dish dish in @chef.Dishes)
+                                    {
+                                        <li>@dish.Name</li>
+                                            <ul>
+                                                <li>Tastiness @dish.Tastiness</li>
+                                                <li>Calories @dish.Calories</li>
+                                            </ul>
+                                    }
+                                </ul>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

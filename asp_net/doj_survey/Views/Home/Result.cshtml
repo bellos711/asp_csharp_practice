@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="outercontainer">
+        <div class="output-form-data">
+            <h3>Submitted Info:</h3>
+            <div class="inner-contents">
+                <div class="inner-contents-item">
+                    <label>Name: </label>
+                    <span>@ViewBag.Name</span>
+                </div>
+
+                <div class="inner-contents-item">
+                    <label>Location: </label>
+                    <span>@ViewBag.Location</span>
+                </div>
+
+                <div class="inner-contents-item">
+                    <label>Favorite Language: </label>
+                    <span>@ViewBag.Language</span>
+                </div>
+
+                <div class="inner-contents-item-comment">
+                    <label>Comment: </label>
+                    <span>@ViewBag.Comment</span>
+                </div>
+
+                <a href="/">Go Back</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

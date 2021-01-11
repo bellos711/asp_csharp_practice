@@ -1,0 +1,19 @@
+@using random_passcode.Models
+@model WrapperModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="outercontainer">
+        <div class="innercontainer">
+            <h3>Random Passcode #@Model.MyCounter: @Model.MyPassCode </h3>
+            <a href="/generate"><h4>Generate a new Passcode</h4></a>
+        </div>
+    </div>
+</body>
+</html>
